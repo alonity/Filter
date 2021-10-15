@@ -1,0 +1,25 @@
+{
+    "name": "alonity/filter",
+    "description": "Alonity filter",
+    "type": "library",
+    "keywords": ["alonity", "filter", "input"],
+    "homepage": "https://qexy.org",
+    "version": "1.0.0",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Qexy",
+            "email": "admin@qexy.org",
+            "homepage": "https://qexy.org"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "alonity\\filter\\": "src/"
+        }
+    }
+}
