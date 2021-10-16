@@ -12,7 +12,7 @@
  *
  * @license MIT
  *
- * @version 1.0.0
+ * @version 1.0.1
  *
  */
 
@@ -104,6 +104,6 @@ class Str {
 
         $string = transliterator_transliterate('Any-Latin;Latin-ASCII;', $string);
 
-        return preg_replace('/[^a-zA-Z0-9\\'.$except_to.']/iu', $except_to, $string);
+        return preg_replace('/[^a-zA-Z0-9\\'.$except_to.']+/iu', $except_to, $string);
     }
 }
