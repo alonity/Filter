@@ -12,14 +12,14 @@
  *
  * @license MIT
  *
- * @version 1.0.0
+ * @version 1.1.0
  *
  */
 
 namespace alonity\filter;
 
 class Filters {
-    const VERSION = '1.0.0';
+    const VERSION = '1.1.0';
 
     const POST = INPUT_POST;
 
@@ -201,5 +201,9 @@ class Filters {
         }
 
         return new Filter($value, $regexp, $type, $key);
+    }
+
+    public static function String(string $str) : Str {
+        return new Str($str);
     }
 }

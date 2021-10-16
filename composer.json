@@ -4,7 +4,7 @@
     "type": "library",
     "keywords": ["alonity", "filter", "input"],
     "homepage": "https://qexy.org",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "license": "MIT",
     "authors": [
         {
@@ -15,7 +15,8 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "php": "^7.1"
+        "php": "^7.1",
+        "ext-intl": "*"
     },
     "autoload": {
         "psr-4": {
