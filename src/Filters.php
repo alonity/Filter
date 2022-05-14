@@ -6,20 +6,20 @@
  *
  * @author Qexy admin@qexy.org
  *
- * @copyright © 2021 Alonity
+ * @copyright © 2022 Alonity
  *
  * @package alonity\filter
  *
  * @license MIT
  *
- * @version 1.1.0
+ * @version 1.1.1
  *
  */
 
 namespace alonity\filter;
 
 class Filters {
-    const VERSION = '1.1.0';
+    const VERSION = '1.1.1';
 
     const POST = INPUT_POST;
 

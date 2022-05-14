@@ -6,13 +6,13 @@
  *
  * @author Qexy admin@qexy.org
  *
- * @copyright © 2021 Alonity
+ * @copyright © 2022 Alonity
  *
  * @package alonity\filter
  *
  * @license MIT
  *
- * @version 1.0.1
+ * @version 1.0.2
  *
  */
 
@@ -45,7 +45,7 @@ class Str {
             'у'=>'u','У'=>'U',
             'ф'=>'f','Ф'=>'F',
             'х'=>'h','Х'=>'H',
-            'ц'=>'c','Ц'=>'TS',
+            'ц'=>'ts','Ц'=>'TS',
             'ч'=>'ch','Ч'=>'CH',
             'ш'=>'sh','Ш'=>'SH',
             'щ'=>'sch','Щ'=>'SHC',
